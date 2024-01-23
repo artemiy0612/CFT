@@ -7,7 +7,7 @@ public class Integers {
     public String write () throws Exception{
         String integer = "";
         String regexInteger = "[\\D]";
-        String curDir = System.getProperty("user.dir");// текущая директория
+        String curDir = System.getProperty("user.dir");// С‚РµРєСѓС‰Р°СЏ РґРёСЂРµРєС‚РѕСЂРёСЏ
         BufferedReader br1 = new BufferedReader(new FileReader(curDir + "\\in1.txt"));
         BufferedReader br2 = new BufferedReader(new FileReader(curDir + "\\in2.txt"));
         for (;;) {
@@ -17,7 +17,7 @@ public class Integers {
             }
             Pattern pattern1 = Pattern.compile(regexInteger);
             Matcher matcher1 = pattern1.matcher(line1);
-            if (!matcher1.find()) { //поиск согласно регулярному выражению (Нецифр), отрицание
+            if (!matcher1.find()) { //РїРѕРёСЃРє СЃРѕРіР»Р°СЃРЅРѕ СЂРµРіСѓР»СЏСЂРЅРѕРјСѓ РІС‹СЂР°Р¶РµРЅРёСЋ (РќРµС†РёС„СЂ), РѕС‚СЂРёС†Р°РЅРёРµ
                 integer += line1 + "\n";
             }
         }

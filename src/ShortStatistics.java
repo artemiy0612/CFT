@@ -39,9 +39,9 @@ public class ShortStatistics {
         }
         String[] splitStrings = resultStrings.trim().split("\\n");
         result = splitFloats.length + splitIntegers.length + splitStrings.length;
-        System.out.println("Количество элементов в файле floats - " + splitFloats.length + "\n" +
-                "Количество элементов в файле integers - " + splitIntegers.length + "\n" +
-                "Количество элементов в файле strings - " + splitStrings.length);
+        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ С„Р°Р№Р»Рµ floats - " + splitFloats.length + "\n" +
+                "РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ С„Р°Р№Р»Рµ integers - " + splitIntegers.length + "\n" +
+                "РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ С„Р°Р№Р»Рµ strings - " + splitStrings.length);
         return result;
     }
 }

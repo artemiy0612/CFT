@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 public class Floats {
     public String write () throws Exception{
         String floats = "";
-        String curDir = System.getProperty("user.dir");// текущая директория
+        String curDir = System.getProperty("user.dir");// С‚РµРєСѓС‰Р°СЏ РґРёСЂРµРєС‚РѕСЂРёСЏ
         BufferedReader br1 = new BufferedReader(new FileReader(curDir + "\\in1.txt"));
         BufferedReader br2 = new BufferedReader(new FileReader(curDir + "\\in2.txt"));
         for (;;) {

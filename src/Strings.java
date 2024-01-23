@@ -6,8 +6,8 @@ import java.util.regex.Pattern;
 public class Strings {
     public String write () throws Exception{
         String string = "";
-        String regexWords = "[a-zA-Zа-яА-Я&&[^E]]"; // для слов
-        String curDir = System.getProperty("user.dir");// текущая директория
+        String regexWords = "[a-zA-ZР°-СЏРђ-РЇ&&[^E]]"; // РґР»СЏ СЃР»РѕРІ
+        String curDir = System.getProperty("user.dir");// С‚РµРєСѓС‰Р°СЏ РґРёСЂРµРєС‚РѕСЂРёСЏ
         BufferedReader br1 = new BufferedReader(new FileReader(curDir + "\\in1.txt"));
         BufferedReader br2 = new BufferedReader(new FileReader(curDir + "\\in2.txt"));
         for (;;) {
